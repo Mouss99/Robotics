@@ -1,0 +1,8 @@
+<launch>
+<rosparam command="load" file="$(find highlevel_controller)/config/a6.yaml" />
+
+<include file="$(find kinematic_controller)/launch/pose_controller.launch" >
+    
+</include>
+
+</launch>

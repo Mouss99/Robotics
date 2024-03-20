@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>highlevel_controller</name>
+  <version>0.0.0</version>
+  <description>The highlevel_controller package</description>
+
+ <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <!-- Example:  -->
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="mmoumn1@todo.todo">mmoumn1</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>BSD</license>
+
+
+ <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <build_depend>highlevel_msgs</build_depend>
+  <exec_depend>highlevel_msgs</exec_depend>
+  <build_depend>kinematic_controller</build_depend>
+  <exec_depend>kinematic_controller</exec_depend>
+  <build_depend>cubic_polynomial_planner</build_depend>
+  <exec_depend>cubic_polynomial_planner</exec_depend>
+  <depend>Eigen3</depend>
+  <depend>actionlib</depend>
+
+
+</package>

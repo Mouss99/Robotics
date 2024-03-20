@@ -1,0 +1,4 @@
+<launch>
+    <!-- Start the keyboard_controller node -->
+    <node name="keyboard_controller" pkg="keyboard_controller" type="keyboard_controller" output="screen"/>
+</launch>

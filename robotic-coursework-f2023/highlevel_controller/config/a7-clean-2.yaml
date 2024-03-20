@@ -1,0 +1,57 @@
+action_list:
+
+  number_of_targets: 9
+
+  action_0:
+    action_type: pose    
+    translation: [0.4, 0.2, 0.5]
+    orientation: [-1.5, 0.0, 0.0]
+    duration: 2.0
+     
+  action_1:
+    action_type: pose    
+    translation: [0.4, 0.2, 0.35]
+    orientation: [-1.5, 0.0, 0.0]
+    duration: 2.0
+  
+  action_2:
+    action_type: pose    
+    translation: [0.4, -0.4, 0.35]
+    orientation: [-1.5, 0.0, 0.0]
+    duration: 2.0
+
+  action_3:
+    action_type: pose    
+    translation: [0.4, 0.2, 0.35]
+    orientation: [-1.5, 0.0, 0.0]
+    duration: 2.0
+     
+  action_4:
+    action_type: pose    
+    translation: [0.35, -0.4, 0.35]
+    orientation: [-1.5, 0.0, 0.0]
+    duration: 2.0
+
+  action_5:
+    action_type: pose    
+    translation: [0.35, 0.2, 0.35]
+    orientation: [-1.5, 0.0, 0.0]
+    duration: 2.0
+     
+  action_6:
+    action_type: pose    
+    translation: [0.30, -0.4, 0.35]
+    orientation: [-1.5, 0.0, 0.0]
+    duration: 2.0
+
+  action_7:
+    action_type: pose    
+    translation: [0.30, 0.2, 0.35]
+    orientation: [-1.5, 0.0, 0.0]
+    duration: 2.0
+     
+  action_8:
+    action_type: pose    
+    translation: [0.25, -0.4, 0.35]
+    orientation: [-1.5, 0.0, 0.0]
+    duration: 2.0

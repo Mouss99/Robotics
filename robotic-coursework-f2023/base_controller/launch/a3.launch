@@ -1,0 +1,10 @@
+<launch>
+    <node name="planner" pkg="potential_field_planner" type="potential_field_planner" output="screen">
+        </node>
+
+    <!-- Launch the 'controller' node from the 'base_controller' package -->
+    <node name="controller" pkg="base_controller" type="base_controller" output="screen">
+        <!-- Add any required arguments or parameters for the 'controller' node here -->
+    </node>
+
+</launch>
